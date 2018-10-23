@@ -1,5 +1,5 @@
 var Discord = require('discord.js')
-var client = Discord.Client({disableEveryone:true})
+var client = new Discord.Client({disableEveryone:true})
 var channelid = "504118969674760193";
 client.on('ready', function () {
   client.user.setStatus('invisble')
